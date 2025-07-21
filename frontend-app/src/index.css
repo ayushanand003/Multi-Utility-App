@@ -1,0 +1,17 @@
+/* Theme Mode Transitions */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+.light-mode {
+  background-color: #f8f9fa;
+  color: #424d57;
+}
+
+/* Dark Theme */
+.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
