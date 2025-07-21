@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Calculation = require('../models/Calculation'); // import model
+const Calculation = require('../models/Calculation'); 
 
 // POST /api/calculate
 router.post('/', async (req, res) => {
